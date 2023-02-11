@@ -22,6 +22,10 @@ public class Categoria {
 
     private byte iva;
 
+    public Categoria(String categoria) {
+        this.categoria = categoria;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
